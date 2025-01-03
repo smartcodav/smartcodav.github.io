@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Result Portal Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1>School Result Portal</h1>
+            <p class="lead">Supports WAEC or NECO Result PIN Checker</p>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2>Overview</h2>
+            <p class="mt-3">Built with Laravel 8.54, supporting PHP 7.4+. The portal includes a clean admin dashboard and supports bulk upload of data into the database. 
+            The portal is ideal for school result management, allowing students to access their termly results using generated PINs. Customization options are available to remove the PIN generation feature upon payment.</p>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Payment Plans</h2>
+            <p>All plans come with free hosting, a domain name, and an SSL certificate for one year.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Plan</h5>
+                            <p class="card-text">Registration fee: <strong>N100,000</strong>. Comes with free hosting, domain name, and support. Supports PIN generation at <strong>N500 per PIN</strong>.</p>
+                            <a href="https://paystack.com/pay/school-portal-basic-plan" class="btn btn-primary">Register for Basic Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Plan</h5>
+                            <p class="card-text">Registration fee: <strong>N450,000</strong>. Does not support PIN generation. Includes free hosting, domain name, and support.</p>
+                            <a href="https://paystack.com/pay/school-portal-silver-plan" class="btn btn-primary">Register for Silver Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold Plan</h5>
+                            <p class="card-text">Registration fee: <strong>N1,500,000</strong>. PIN generation at <strong>N100 per PIN</strong>. Includes all features, premium support, and free hosting, domain name, and SSL for one year.</p>
+                            <a href="https://paystack.com/pay/school-portal-gold-plan" class="btn btn-primary">Register for Gold Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2>How to Use</h2>
+            <ol class="mt-3 text-start">
+                <li>Log in to the admin dashboard using your credentials.</li>
+                <li>Upload bulk data using the provided templates.</li>
+                <li>Generate PINs (if applicable) for student result access.</li>
+                <li>Share the generated PINs with students or guardians for result checking.</li>
+                <li>Customize the portal settings as per your school's requirements.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Demo Screenshots</h2>
+            <p class="mt-3">Below are some screenshots showcasing the features of the School Result Portal:</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/bulkuserupload.png" alt="Bulk User Upload" class="img-fluid rounded">
+                    <p class="mt-2">Bulk User Upload</p>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/ClassConfig.png" alt="Class Configuration" class="img-fluid rounded">
+                    <p class="mt-2">Class Configuration</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/PinGeneration.png" alt="PIN Generation" class="img-fluid rounded">
+                    <p class="mt-2">PIN Generation</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/ResultsUpload.png" alt="Results Upload" class="img-fluid rounded">
+                    <p class="mt-2">Results Upload</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/PositionManagement.png" alt="Results Upload" class="img-fluid rounded">
+                    <p class="mt-2">Position Management</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/Login.png" alt="Results Upload" class="img-fluid rounded">
+                    <p class="mt-2">Login Page</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/StudentsDashboard.png" alt="Results Upload" class="img-fluid rounded">
+                    <p class="mt-2">Students Dashboard</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/CheckResult.png" alt="Check Result Page" class="img-fluid rounded">
+                    <p class="mt-2">Check Result Page</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/GeneratedResults.png" alt="Results Upload" class="img-fluid rounded">
+                    <p class="mt-2">Gnenerated Results</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="mnt/data/ResultPrintOut.png" alt="Check Result Page" class="img-fluid rounded">
+                    <p class="mt-2">Result PrintOut</p>
+                </div>
+                <!-- Add more images here as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <p class="mt-3">Have questions or want to register? Reach out to us:</p>
+            <ul class="list-unstyled mt-3">
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/2347060582016" target="_blank">+2347060582016</a></li>
+                <li><strong>Call:</strong> <a href="tel:+2349024050809">+2349024050809</a></li>
+                <li><strong>Email:</strong> <a href="mailto:davidesk.enterprise@gmail.com">davidesk.enterprise@gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 School Result Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
