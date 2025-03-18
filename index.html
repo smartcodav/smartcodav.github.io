@@ -75,9 +75,19 @@
         </div>
     </div>
 
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/2349024050809" target="_blank" class="whatsapp-btn">
-        💬 Chat us on WhatsApp
-    </a>
+    <!-- WhatsApp Button with Custom Message Input -->
+    <div class="whatsapp-btn">
+        <input type="text" id="whatsappMessage" placeholder="Type your message..." style="padding: 8px; border: none; border-radius: 20px; width: 200px;">
+        <button onclick="sendMessage()" style="background-color: #128C7E; color: #fff; border: none; border-radius: 20px; padding: 8px 12px; margin-left: 5px; cursor: pointer;">💬 Chat on WhatsApp</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const message = document.getElementById('whatsappMessage').value;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappLink = `https://wa.me/2347060582016?text=${encodedMessage}`;
+            window.open(whatsappLink, '_blank');
+        }
+    </script>
 </body>
 </html>
