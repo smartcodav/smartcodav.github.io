@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "workspace": {
+    "name": "AI Vertex API Subscription Portal",
+    "description": "Static website for AI-powered exam proctoring subscription service"
+  },
+  "tools": []
+}
